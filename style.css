@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
+
+body{
+    background-image: url("background.jpg") !important;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: rgb(47, 50, 65)
+}
+.navbar-brand{
+    font-size: 2.3em !important;
+    color: rgb(47, 50, 65)!important;
+}
+
+.nav-link{
+    color: rgb(47, 50, 65)!important;
+    font-size: 1.3em !important;
+    margin-left: 1em;
+}
+.nav-link:hover{
+    color: rgb(134, 70, 84) !important;
+}
+.login{
+    margin-right: 1em;
+}
+.container{
+flex-direction: column;
+
+
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+.card{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.59);
+    color: rgb(47, 50, 65)!important;
+    font-family: 'Maven Pro', sans-serif;
+    backdrop-filter: blur(10px);
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border-radius: 1%;
+    opacity: 95%;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  .op{
+    opacity: 90%;
+  }
+  .marketBtn{
+    width: 100%;
+  }
+.wide{
+    height: 10em;
+
+
+
+}
+.container{
+    align-content: space-between;
+    flex-wrap:wrap;
+    
+}
+input{
+    margin-bottom: 2em;
+}
