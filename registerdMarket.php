@@ -51,8 +51,14 @@
 .btnn{
     position: absolute;
     top: 28em;
-    left:auto;
-    width: 90%;
+    left: 35%;
+    width: 60%;
+}
+.btnn2{
+    position: absolute;
+    top: 28em;
+    left: 5%;
+    width: 20%;
 }
     </style>
 </head>
@@ -71,6 +77,7 @@
         </div>
       </div>
       <form class="justify-content-end login">
+      <button type="button" class="btn btn-success" onclick="location.href='admin.php'">Profilim</button>
       <button type="button" class="btn btn-info" onclick="location.href='index.php'">Çıkış Yap</button>
       </form>
     </div>
@@ -83,6 +90,7 @@
     <h5 class="card-title">Kamp Sandalyesi</h5>
     <p class="card-text">Kamp yaparken konforu yakalama zamanı. CampIO kamp sandalyesi tek renk seçeneğiyle satışta!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 260₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div></div>
   
   <div class="card" style="width: 18rem;">
@@ -91,6 +99,7 @@
     <h5 class="card-title">Sırt Çantası</h5>
     <p class="card-text">Taşıma kolaylığı sağlayan CampIO sırt çantası! İç hacmi büyük olup dış kısmında da kamp matınızı taşıma imkanı sunar.</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 1100₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -100,6 +109,7 @@
     <h5 class="card-title">Kamp Çadırı</h5>
     <p class="card-text">4 kişilik kapasitesi ile yazın serin kışın sıcak tutan kumaş yapısıyla evinizde hissedeceksiniz!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 1750₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -109,6 +119,7 @@
     <h5 class="card-title">Hamak</h5>
     <p class="card-text">230 kg'a kadar taşıma kapasitesi ile sizlere doğada konforlu bir uyku sağlar. Yanında klipsleri, taşıma çantası ve ipleri hediye!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 550₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -118,6 +129,7 @@
     <h5 class="card-title">Kamp Ocağı</h5>
     <p class="card-text">Tek tencere kapasiteli ocak! Çakmak gazı ile doldurulup çakmakla kolaylıkla yakabilirsiniz. Yanında dolum yapmanız için 750ml çakmak gazı hediye!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 400₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -128,6 +140,7 @@
     <h5 class="card-title">Uyku Tulumu</h5>
     <p class="card-text">Yatağınızda uyuyormuş gibi hissedebilin diye! Tek kişi kapasiteli uyku tulumumuz kış aylarında 25 derece sıcaklık sağlar.</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 300₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -138,6 +151,7 @@
     <h5 class="card-title">Kamp Matı</h5>
     <p class="card-text">Nefesle şişebilen kamp matı! Taşıma çantasıyla çok az yer kaplar. Yatak yumuşaklığını yakalayabileceğiniz bir kamp matı.</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 300₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -148,6 +162,7 @@
     <h5 class="card-title">Matara</h5>
     <p class="card-text">12 saat sıcak ve soğuk tutma özelliğiyle kamp matarası! 2lt kapasiteli mataramızda ister su ister kahve için tercih sizin!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 250₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -158,6 +173,7 @@
     <h5 class="card-title">Olta</h5>
     <p class="card-text">Deniz kenarı kamp turlarında acıkanlara özel! Yanında sahte yem, misina, kanca, taşıma çantası bizden olsun!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 550₺</a>
+    <button type="button" class="btn btn-danger btnn btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -167,6 +183,7 @@
     <h5 class="card-title">Kabin</h5>
     <p class="card-text">Hem duş alabileceğiniz hem de kıyafet değiştirebileceğiniz fermuarlı kabin!</p>
     <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 520₺</a>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>
@@ -175,7 +192,9 @@
   <div class="card-body">
     <h5 class="card-title">Kumanya Bıçağı</h5>
     <p class="card-text">Hem bıçak hem çatal hem kaşık bir arada! Malzemeleriniz çok yer kaplamasın istiyorsanız birebir! </p>
-    <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 50₺</a>
+    <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 50₺</a> <br>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
+
   </div>
 
 </div>
@@ -185,7 +204,8 @@
     <h5 class="card-title">Güneş Enerjili lamba</h5>
     <p class="card-text">Güneş enerjisiyle çalışan lamba!
     </p>
-    <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 110₺</a>
+    <a href="#" class="btn btn-success btnn"><i class="fa-solid fa-cart-shopping"></i> 110₺</a> <br>
+    <button type="button" class="btn btn-danger btnn2"><i class="fa-regular fa-heart"></i></button>
   </div>
 
 </div>

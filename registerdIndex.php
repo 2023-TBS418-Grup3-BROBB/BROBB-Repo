@@ -26,7 +26,7 @@
         </div>
       </div>
       <form class="justify-content-end login">
-      <button type="button" class="btn btn-success" onclick="location.href='admin.php'">Admin Login</button>
+      <button type="button" class="btn btn-success" onclick="location.href='admin.php'">Profilim</button>
        <button type="button" class="btn btn-info" onclick="location.href='index.php'">Çıkış Yap</button>
       </form>
     </div>
